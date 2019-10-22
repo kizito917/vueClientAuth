@@ -47,15 +47,7 @@ export default {
         alert("Login details Doesn't exist")
       }
     }
-  },
-  mounted() {
-    const info = localStorage.getItem('userRegisteredData')
-    var x;
-    for (x in info) {
-      console.log(info[x])
-    // txt += info[x] + " ";
-}
-    
+
   }
 }
 </script>
